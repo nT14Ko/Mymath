@@ -127,9 +127,9 @@ public class MainActivity extends AppCompatActivity {
             int chosenAnswer = Integer.parseInt(answer);
             if (chosenAnswer == rightAnswer) {
                 countOfRightAnswers++;
-                Toast.makeText(this, "Верно", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Yes", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(this, "Неверно", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "No", Toast.LENGTH_SHORT).show();
             }
             countOfQuestions++;
             playNext();
