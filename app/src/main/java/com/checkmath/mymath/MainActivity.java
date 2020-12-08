@@ -1,4 +1,4 @@
-package com.mathhh.mymath;
+package com.checkmath.mymath;
 
 import androidx.appcompat.app.AppCompatActivity;
 
